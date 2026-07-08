@@ -1,6 +1,6 @@
 import AWS from "aws-sdk";
 
-AWS.config.update({ region: "ap-south-1" });
+AWS.config.update({ region: "eu-north-1" });
 
 const dynamo = new AWS.DynamoDB.DocumentClient();
 const TABLE = "TodoTasks";
