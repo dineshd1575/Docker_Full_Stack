@@ -1,4 +1,4 @@
-const API = "http://51.20.188.111:3000";
+const API = "http://51.20.188.111:5000";
 
 export const fetchTasks = async () => {
   const res = await fetch(API + "/tasks");
